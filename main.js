@@ -14,19 +14,3 @@ window.onscroll = () =>{
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
 }
-
-
-// function validateForm() {
-//     const email = document.getElementById("email").value;
-//     if (!email.includes("@")) {
-//         alert("Please enter a valid email address with '@' symbol.");
-//         return false; // Prevent form submission
-//     }
-//     return true; // Allow form submission
-// }
-// const menuBtn = document.getElementById('menu-btn');
-// const navMenu = document.getElementById('nav-menu');
-
-// menuBtn.addEventListener('click', () => {
-//     navMenu.classList.toggle('active');
-// });
