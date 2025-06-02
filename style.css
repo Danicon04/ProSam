@@ -247,6 +247,10 @@ nav .nav ul li a:hover{
     bottom: 100px;
     font-size: 13px;
 }
+.course-card {
+    /* max-width: 800px; */
+    margin: auto;
+}
 
 /* registration section */
 #registration{
@@ -899,6 +903,10 @@ footer .copyright .pro-links i:hover{
     }
 }
 @media(max-width: 768px){
+    #video-container{
+        padding-top: 60%;
+        width: 100%;
+    }
     nav{
         padding: 15px 20px;
     }
@@ -1051,7 +1059,8 @@ footer .copyright .pro-links i:hover{
 /* Mobile Phone */
 @media(max-width:475px){
     #video-container{
-        padding-top: 80%;
+        width: 100%;
+        padding-top: 75%;
     }
 
     #home {
@@ -1219,3 +1228,233 @@ footer .copyright .pro-links i:hover{
 
     /* quick fixes */
 }
+
+
+/* course section */
+.course-cardo {
+    /* max-width: 800px; */
+    margin: auto;
+    /* background-color: #1c1c1c; */
+    border-radius: 10px;
+    overflow: hidden;
+    /* box-shadow: 0 0 20px rgba(0,0,0,0.6); */
+}
+
+  
+.course-infoo {
+    padding: 20px;
+}
+  
+h1.newh{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+  
+.descriptiono {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 10px;
+}
+  
+.badgeo {
+    background-color: rgb(21, 21, 100);
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+  
+.ratingo {
+    margin: 10px 0;
+}
+  
+.ratingo a {
+    color: #b993ff;
+    text-decoration: none;
+}
+  
+.detailso {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #aaa;
+}
+  
+.detailso li {
+    margin-bottom: 5px;
+}
+  
+.priceo {
+    font-size: 24px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+  
+.add-to-carto {
+    background-color: rgb(21, 21, 100);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.add-to-carto:hover {
+    background-color: #c1ff72;
+    color: rgb(21, 21, 100);
+}
+.ratingo span.star{
+    color: #fdc93b;
+    font-size: 0.9rem;
+}
+.detailso li{
+    color: #64626e;
+    font-size: 15px;
+}
+
+
+/* features section */
+  
+/* .review-sectionf{
+    max-width: 800px;
+    margin: auto;
+} */
+  
+.featured-reviewf{
+    /* background-color: #1e1e1e; */
+    padding: 20px;
+    /* margin-bottom: 40px; */
+    border: 1px solid #b993ff;
+    border-radius: 8px;
+    /* padding: 16px; */
+    margin: 12px;
+    margin-top: 30px;
+}
+.featured-reviewf h2{
+    color: rgb(21, 21, 100);
+    font-size: 24px;
+}
+.user-infof{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.avatarf{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+  
+.starsf{
+    font-size: 18px;
+    color: #f5c518;
+    margin: 10px 0;
+}
+  
+.starsf span{
+    font-size: 14px;
+    color: #aaa;
+    margin-left: 10px;
+}
+  
+.review-textf{
+    color: #64626e;
+    margin: 15px 0;
+}
+
+.show-moref{
+    color: rgb(44, 44, 80);
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+  
+.review-footerf{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    font-size: 15px;
+    line-height: 25px;
+}
+  
+.actionsf button{
+    background: none;
+    border: 1px solid #b993ff;
+    color: #b993ff;
+    border-radius: 20px;
+    padding: 5px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+  
+.actionsf a{
+    color: #b993ff;
+    text-decoration: underline;
+}
+
+/* students also bought section */
+.students-also-boughtf{
+    padding: 20px;
+}
+.students-also-boughtf h2{
+    margin-top: 30px;
+    color: rgb(21, 21, 100);
+    font-size: 24px;
+}
+  
+.course-listf{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+  
+.course-itemf{
+    display: flex;
+    padding: 10px;
+}
+  
+.course-itemf img{
+    width: 80px;
+    height: 80px;
+    /* border-radius: 5px; */
+    margin-right: 15px;
+    object-fit: cover;
+}
+  
+.course-infof h3{
+    font-size: 16px;
+    margin: 0;
+    color: #000;
+}
+  
+.metaf{
+    font-size: 13px;
+    color: #b993ff;
+}
+  
+.bestsellerf{
+    display: inline-block;
+    background-color: #065f46;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 5px;
+}
+  
+.bottomf{
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    color: #fbbf24;
+    margin-top: 10px;
+}
+  
