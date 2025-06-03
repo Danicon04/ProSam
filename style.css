@@ -3,6 +3,9 @@
 
 
 /* global tags */
+html{
+    scroll-padding-top: 80px;
+}
 *{
     margin: 0;
     padding: 0;
@@ -383,7 +386,7 @@ footer{
     flex-wrap: wrap;
 }
 footer .footer-col{
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 footer h3{
     color: #c1ff72;
@@ -397,6 +400,7 @@ footer li{
     font-size: 15px;
     cursor: pointer;
     transition: 0.3s ease;
+    line-height: 10px;
 }
 footer li:hover{
     color: rgb(241, 240, 245);
@@ -470,7 +474,7 @@ footer .copyright .pro-links i:hover{
 }
 
 /* about section */
-#about-home{
+/* #about-home{
     background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(imgP4.jpg);
     width: 100%;
     height: 60vh;
@@ -531,10 +535,10 @@ footer .copyright .pro-links i:hover{
 #about-container .about-text .about-fe .fe-text h5{
     font-size: 16px;
     color: #29303b;
-}
+} */
 
 /* trust section */
-#trust{
+/* #trust{
     text-align: center;
     padding: 8vw;
 }
@@ -547,7 +551,7 @@ footer .copyright .pro-links i:hover{
 #trust .trust-img img{
     width: 8%;
     height: auto;
-}
+} */
 
 
 /* Blog Section */
@@ -622,7 +626,7 @@ footer .copyright .pro-links i:hover{
 }
 
 /* Course-Inner Section */
-#course-inner{
+/* #course-inner{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -740,7 +744,7 @@ footer .copyright .pro-links i:hover{
 #course-inner .enroll .enroll-btn a:hover{
     color: rgb(50, 50, 136);
     background: #c1ff72;
-}
+} */
 /* Contact Section */
 #contact{
     padding: 8vw;
@@ -1015,12 +1019,31 @@ footer .copyright .pro-links i:hover{
     }
 
     /* Blog Section */
-    #blog-container{
+    /* #blog-container{
         padding: 8vw 4vw;
     }
     #blog-container .blogpost{
         width: 100%;
         margin-top: 30px;
+    }
+    #blog-container .blogpost img{
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    } */
+
+    #blog-container{
+        flex-direction: column;
+    }
+    #blog-container .blogs{
+        width: 100%;
+    }
+    #blog-container .cate{
+        width: 100%;
+    }
+    #blog-container .blogpost{
+        width: 100%;
+        margin-top: 70px;
     }
     #blog-container .blogpost img{
         width: 100%;
@@ -1048,11 +1071,35 @@ footer .copyright .pro-links i:hover{
     }
 
     /* Contact Section */
-    #contact{
+    /* #contact{
         padding: 8vw 4vw;
     }
     #contact .getin{
         width: 250px;
+    } */
+
+    #contact{
+        padding: 8vw 4vw;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content: flex-start;
+    }
+    #contact .getin{
+        width: 100%;
+        padding: 40px 30px;
+    }
+    #contact .form{
+        width: 100%;
+        padding: 40px 30px;
+    }
+    #contact .form .form-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    #contact .form .form-row input{
+        width: 100%;
     }
 }
 
@@ -1291,6 +1338,7 @@ h1.newh{
     font-size: 24px;
     margin: 15px 0;
     font-weight: bold;
+    color: #000;
 }
   
 .add-to-carto {
