@@ -1,133 +1,52 @@
-body {
-    background-color: #0f0f0f;
-    font-family: Arial, sans-serif;
-    color: white;
-    padding: 20px;
-  }
-  
-  .review-section {
-    max-width: 800px;
-    margin: auto;
-  }
-  
-  .featured-review {
-    background-color: #1e1e1e;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 40px;
-  }
-  
-  .user-info {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .avatar {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-right: 15px;
-  }
-  
-  .stars {
-    font-size: 18px;
-    color: #f5c518;
-    margin: 10px 0;
-  }
-  
-  .stars span {
-    font-size: 14px;
-    color: #aaa;
-    margin-left: 10px;
-  }
-  
-  .review-text {
-    color: #ccc;
-    margin: 15px 0;
-  }
-  
-  .show-more {
-    color: #b993ff;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    margin-bottom: 20px;
-  }
-  
-  .review-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-  }
-  
-  .actions button {
-    background: none;
-    border: 1px solid #b993ff;
-    color: #b993ff;
-    border-radius: 20px;
-    padding: 5px 12px;
-    margin-right: 10px;
-    cursor: pointer;
-  }
-  
-  .actions a {
-    color: #b993ff;
-    text-decoration: underline;
-  }
-  
-  .students-also-bought h2 {
-    margin-bottom: 20px;
-  }
-  
-  .course-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .course-item {
-    display: flex;
-    background-color: #1e1e1e;
-    border-radius: 10px;
-    padding: 10px;
-  }
-  
-  .course-item img {
-    width: 80px;
-    height: 80px;
-    border-radius: 5px;
-    margin-right: 15px;
-    object-fit: cover;
-  }
-  
-  .course-info h3 {
-    font-size: 16px;
-    margin: 0;
-    color: white;
-  }
-  
-  .meta {
-    font-size: 13px;
-    color: #99f6e4;
-  }
-  
-  .bestseller {
-    display: inline-block;
-    background-color: #065f46;
-    padding: 2px 6px;
-    font-size: 12px;
-    border-radius: 5px;
-    color: white;
-    margin-top: 5px;
-  }
-  
-  .bottom {
-    display: flex;
-    gap: 15px;
-    font-size: 14px;
-    color: #fbbf24;
-    margin-top: 10px;
-  }
-  
+.instructor-section {
+  background-color: #1c1c1c;
+  color: white;
+  padding: 20px;
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+}
+
+.instructor-name {
+  color: #a974ff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.instructor-title {
+  color: #999;
+  margin-bottom: 15px;
+}
+
+.instructor-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.instructor-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.instructor-stats {
+  list-style: none;
+  padding: 0;
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+.instructor-bio {
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.show-more {
+  color: #a974ff;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
